@@ -20,7 +20,8 @@ Setup instructions:
 4. rake db:seed
 5. cd frontend
 6. npm install
-7. rails s
+7. bower install bootstrap --save
+8. rails s
 
 Database:
 Name: instacart-shopper_development
