@@ -9,8 +9,9 @@ PreRequsites to run the project:
 6. Install node js: https://nodejs.org/en/
 7. Install Bundler: gem install bundler
 8. Install Ember-cli: npm install -g ember-cli
-9. Install postgresql: brew install postgresql
-10. Run postgresql: brew services start postgresql
+9. Install bower: npm install -g bower
+10. Install postgresql: brew install postgresql
+11. Run postgresql: brew services start postgresql
 
 Setup instructions:
 1. Clone the github project.
