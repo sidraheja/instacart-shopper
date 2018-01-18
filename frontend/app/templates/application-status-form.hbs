@@ -1,0 +1,11 @@
+{{#modal-box title='Application Status' button="Submit" ok='checkEmail' close='removeModal'}}
+	<form {{action 'ok' on='submit'}}>
+  		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<div class="form-group">
+					{{input type="text" name="email" id="email" class="form-control input-sm" placeholder="Email Address" value=email}}
+				</div>
+			</div>
+		</div>
+	</form>
+{{/modal-box}}
